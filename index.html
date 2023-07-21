@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .purple{
+        color: rgb(170, 87, 247);
+    }
+    #element{
+      color: rgb(12, 11, 12);
+      font-size: 3rem;
+    }
+    .rightSection img
+    {
+       width: 80%;    
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Projects">projects</a></li>
+          <li><a href="#resume">My Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello, I am </div>
+          <div class="text-two">
+            Yashwanth Kumar</div>
+            <span id="element"></span>
+          <!--<div class="text-two">A passionate</div>-->
+          <div class="text-four">From Andhra Pradesh</div>
+        </div>
+        <p><a href="https://www.linkedin.com/in/rokkam-yashwanth-kumar-1821b6242/">My linkedin Profile</a></p>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="fe.jpg" width="500" height="300" alt="" />
+          </div>
+          <class class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p style="color: rgb(11, 18, 210);">
+                I am a Passionate Front-End Developer with better hands on experience in developing responsive websites using HTM, CSS, JavaScript, ReactJS .I am proficient in C, Java, Data Structures & Algorithms.</p>
+                <br>
+            <p style="color: rgb(11, 18, 210);">                                                I have a good knowledge of Object Oriented
+                Programming, Operating Systems and DatabaseManagement Systems.Apart from academics, I hold potent skills in various extra curricural activities and also led the teams at various levels in Student Councils and Sports</p>
+             </class>   
+            <div class="button">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflect Our Knowledge</div>
+            <p>Through hands-on experience and online tutorials, I developed a solid foundation in HTML, CSS, JavaScript and ReactJS. I honed my skills by creating various static websites and experimenting with different coding challenges to understand the core concepts better.
+
+            </p>
+
+            <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+              <br />
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <!--<div class="per">90%</div> -->
+              <img src="ht_logo.png" width="200" height="125" alt="Html logo">
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <!--<div class="per">80%</div>-->
+              <img src="CSS-Logo.jpg" width="200" height="125" alt="css logo">
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <img src="js_logo.png" width="200" height="125" alt="css logo">
+             <!-- <div class="per">70%</div>-->
+            </div>
+            <div class="box">
+              <div class="topic">ReactJs</div>
+              <!--<div class="per">60%</div>-->
+              <img src="react_logo.png" width="200" height="125" alt="React js logo">
+            </div>
+            <!--<div class="box">
+                <div class="topic">Java</div>
+                <!--<div class="per">60%</div>
+                <img src="java-Logo.png" width="200" height="125" alt="Java logo">
+              </div>-->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--my projects section starts-->
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="about-details">
+          <div class="right">
+            <img src="hospital.webp" width="500" height="300" alt="" />
+          </div>
+          <class class="right">
+            <div class="topic">Hospital Management System</div>
+            <p > An online website made for patient convience through which the patient can take an appointment from their desired doctor who are available at time according to the patient's choice.This webiste is made using HTML, CSS and JAVASCRIPT.This website has an advantage of 24/7 doctor availability.
+               </p>
+               <br>
+               <p>Skills Used: <strong>HTML, CSS, JavaScript, ReactJS</strong></p>
+             </class>   
+            <div class="button">
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="content">
+        <div class="about-details">
+          <div class="right">
+            <img src="spotify.png" width="500" height="300" alt="" />
+          </div>
+          <class class="right">
+            <div class="topic">Spotify Clone</div>
+            <p> The Spotify clone project aims to provide users with the ability to search for and listen to their favorite songs, create personalized playlists, and enjoy a seamless music streaming experience. The application adopts a modern and responsive design, ensuring a smooth user experience across various devices. 
+               </p>
+               <br>
+               <p>Skills Used:<strong>HTML, CSS, JavaScript</strong></p>
+             </class>   
+            <div class="button">
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="about-details">
+          <div class="right">
+            <img src="gym.jpg" width="500" height="300" alt="" />
+          </div>
+          <class class="right">
+            <div class="topic">Gym Website</div>
+            <p> An online website about the particular gym training programs and their nutritious diet that have to be followed and also containg expert gym trainers who guide the customers throughout their entire body progress
+               </p>
+               <br>
+               <p>Skills Used:<strong>HTML, CSS, JavaScript</strong></p>
+             </class>   
+            <div class="button">
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- My Services Section Start -->
+    <section class="resume" id="resume">
+      <div class="content">
+        <div class="title"><span>My Resume</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Education Details</div>
+            <p>B.Tech in Computer Science with specialization in Cyber Security and IOT including BlockChain</p>
+            <p>Vasireddy Venkatadri Institue of Technology</p>
+            <p>8.53 CGPA, 2020 - 2024</p>
+            <br>
+            <p>Intermediate in Sri Chaitanya Junior College</p>
+            <p>9.67 CGPA, 2018 - 2020</p>
+            <br>
+            <p>High School</p>
+            <p>Bharatiya Vidya Bhavan Vidyashram</p>
+            <P>2018</P>
+
+            </div>
+            <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Work Experience/Internships</div>
+            <p><strong>Salesforce Developer Virtual Internship</strong></p>
+            <p>April 2023 - May 2023</p>
+            <br>
+            <!--<p>Cloud Virtual Internship</p>
+            <p>Eduskills - AICTE</p>
+            <p>Jan 2023 - Mar 2023</p>-->
+            
+            <p><strong>Cyber Security Virtual Internship</strong></p>
+            <p>Eduskills - AICTE</p>
+            <p>Mar 2022 - May 2022</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Awards</div>
+            
+                <p>Ranked 2nd in Softcon Competiton, IEEE, VVIT 2022</p>
+                <br>
+                <p>Runner up in IOT project Expo, IEEE, VVIT 2021</p>
+            
+            
+        
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Languages Known</div>
+            <p>English</p>
+            <p>Telugu</p>
+            <p>Hindi</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Technical Skills</div>
+            <p>Java</p>
+            <p>DBMS</p>
+            <p>Computer Networks</p>
+            <P>Data Structures</P>
+            <p>Algorithms</p>
+            
+
+
+          </div>
+          <!--<div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Apps Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div> 
+        -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="topic">Have any project to work with</div>
+          <p> Let us chat using the below button and provide me your details like your name, email and the subject you want to convey.</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--<div class="contact-box">
+      <form>
+        <input type="text" class="input-field" placeholder="your Name">
+        <input type="email" class="input-field" placeholder="your Email">
+        <input type="text" class="input-field" placeholder="subject">
+        <textarea type="text" class="input-field" placeholder="your Message"></textarea>
+        <button type="button" class="btn"> send Message</button>
+      </form>
+
+    </div>-->
+
+
+    <!-- Footer Section Start -->
+
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Yashwanth Kumar</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Front-End Web Developer','Web Developer' ,'Front-End Web Developer','Web Developer','Front-End Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
